@@ -4,7 +4,7 @@ play = True
 while play :
 
     #player_choice
-    #scan players choice
+    #scan player's choice
 
     player = input("Enter your choice (rock(r)/paper(p)/scissors(s)): ")
     player = player.lower()
