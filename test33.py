@@ -4,7 +4,7 @@ play = True
 while play :
 
     #player_choice
-    #scan players choice
+    #scan player's choice
 
     player = input("Enter your choice (rock(r)/paper(p)/scissors(s)): ")
     player = player.lower()
@@ -17,7 +17,7 @@ while play :
 
 
     #computer_random
-    #decide computer's choice using random
+    #decide computer's choice with random
     computer = random.randint(1,3)
     if (computer == 1):
         computer = "rock"
