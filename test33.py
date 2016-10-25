@@ -17,7 +17,7 @@ while play :
 
 
     #computer_random
-    #decide computer's choice using random
+    #decide computer's choice with random
     computer = random.randint(1,3)
     if (computer == 1):
         computer = "rock"
